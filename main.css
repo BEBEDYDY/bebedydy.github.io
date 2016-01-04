@@ -1,0 +1,250 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header,nav,section,article,footer,hgroup,pgroup{
+    display: block;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    font-family: sans-serif;
+    
+}
+h3{
+    color: white;
+    font-size: 160%;
+    padding: 2%;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+h2{
+    font-family: sans-serif;
+    color:dimgrey;
+   
+}
+body{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-pack:center;
+}
+
+#big_wrapper{
+    max-width: 1600px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-box-flex:1;
+   
+}
+/*basic done*/
+
+#head {
+    background-image: url(image/bg1.jpg);
+    
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    /*animate it become*/
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes example {
+    0%   {background-image:url(image/bg1.jpg)}
+    25%  {background-image: url(image/bg3.jpg)}
+    50%  {background-image: url(image/bg4.jpg)}
+    75%  {background-image: url(image/bg5.jpg)}
+    100%  {background-image: url(image/bg6.jpg)}
+    
+}
+
+
+#nav{
+    color: white;
+    text-align: right;
+    padding: 30px;
+    -webkit-box-flex:1;
+    
+}
+#nav li{
+    display: inline-block;
+    padding: 2% 1%;
+    font: bold 78% sans-serif;
+}
+#hgroup{ 
+    -webkit-box-flex:1;
+    -webkit-box-pack:center;
+    
+}
+#hgroup1{
+    padding: 10%;
+    text-align: center;
+}
+
+#head img{
+    opacity: 0.9;
+    width: 3%;
+    padding: 5%;
+    -webkit-box-flex:1;
+}
+/* header and menu are done*/
+#section{
+    display: -webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-orient:vertical;
+    
+}
+
+#about{
+    text-align: center;
+    padding: 10%;
+    -webkit-box-flex:1;
+    background-image: url(image/patterns.jpg);
+}
+#about p{
+    line-height: 150%;
+    text-align: left;
+    margin: auto;
+    padding: 2% 2% 0% 0%;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: dimgray;
+}
+#about img{
+    float: left;
+    width:20%;
+    height: 20%;
+    padding: 0% 5% 0% 15%; 
+}
+#about h2{
+    text-align: left;
+    margin: auto;
+   
+}
+/*about me done*/
+
+#experience{
+    background-color:whitesmoke;
+    display: -webkit-box;
+    -webkit-box-pack:center;
+    padding: 1%;;
+}
+pgroup{
+    text-align: center;
+    margin: 3% 0%;
+     -webkit-box-flex:1;
+    
+    
+}
+#experience h2{
+    color:dimgray;
+    padding: 3%;
+    height: 3%;
+    text-align: center;
+}
+#experice2{
+    padding: 3% 22%;
+    text-align: left;
+    line-height:180%;
+    font-family: sans-serif;
+}
+#experice2 span{
+    font-size: 80%;
+    color:darkgrey;
+  
+    float: right;
+}
+/*experience done*/
+
+p{
+    font-family: sans-serif
+}
+#education {
+    background-image: url(image/patterns.jpg);
+    text-align: center;
+    padding:10% 0% 4% 0%; 
+}  
+#education h2{
+    text-align: center;
+}
+#education p{
+    padding: 3% 30%;
+    text-align: left;
+    line-height:180%;
+    font-family: sans-serif;
+}
+small{
+    color:dimgray;
+}
+#education a{
+    color: darkgray;    
+}
+#education a:hover{
+    color: black;
+}
+/*education done*/
+
+#skills{
+    text-align: center;
+    -webkit-box-flex:1;
+    padding: 10% 0px;;
+    background-color: whitesmoke;
+    -webkit-box-orient:vertical;
+}
+
+#skillbox{
+    -webkit-box-flex:1;
+        
+}
+
+#skillspic{
+    width: 45%;
+    padding: 3% 5%;
+    -webkit-box-flex:1;
+}
+#pic{
+    width: 3%;
+    height: 3%;
+    -webkit-box-flex:1;
+}
+/*skills end*/
+#contact{
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    background-image:url(image/bg2.jpg);
+    padding: 3% 0%;
+    
+    
+}
+
+#contact img{
+    width:2%;
+    height: 3%;
+    padding: 0% 2%;
+    -webkit-box-flex:1;
+    
+}
+#contact p{
+    color: lightgray;
+    font-size: 60%;
+    padding: 2% 0% 0% 0%;;
+}
+/*contact done*/
+a{
+    text-decoration:none;
+    color: aliceblue;
+}
+a:hover{
+    color:yellow;
+    
+}
+a:active {
+    color: hotpink;
+}
+/*menu a done here*/
